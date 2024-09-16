@@ -38,7 +38,7 @@ li{
 }
 .dropdown-menu{
     position: absolute;
-    top:100px;
+    top:150px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -52,7 +52,7 @@ li{
 }
 .dropdown-menu1{
     position: absolute;
-    top:100px;
+    top:150px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -67,7 +67,7 @@ li{
 }
 .dropdown-menu2{
     position: absolute;
-    top:100px;
+    top:150px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -81,7 +81,7 @@ li{
 }
 .dropdown-menu3{
     position: absolute;
-    top:100px;
+    top:150px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -97,7 +97,7 @@ li{
 }
 .dropdown-menu4{
     position: absolute;
-    top:100px;
+    top:150px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -108,8 +108,10 @@ li{
 
 .About-us{
     border-radius: 50%;
-    width:60%;
+    width:70%;
 }
+
+
 
 .about-d1{
     color:rgb(236 108 90);
@@ -295,4 +297,139 @@ input{
 }
 .footer-button:hover{
     background-color: #4aaf79;
+}
+.gap{
+    display: flex;
+    column-gap: 20px;
+}
+
+.second-ul{
+    color:#31333A;
+}
+
+.second-ul:hover{
+    color:#31333A
+}
+
+.second-li{
+    color:#31333A;
+}
+.second-li:hover{
+    color:#31333A
+}
+
+
+.fa-circle-check{
+    color: rgb(236 108 90);
+    
+}
+
+.teacher{
+    width:100%;
+    border-radius: 5%;
+}
+
+.fac-d{
+    font-weight: 700 !important;
+    margin: 0px 0px 3px;
+}
+.fact-d2{
+    color:rgb(236 108 90);
+    
+}
+.teach-div{  
+    overflow: hidden;
+    border-radius: 5%;
+}
+.teacher:hover{
+     transform: scale(1.1);
+     transition: all 0.6s ease-out;
+  
+}
+.courses-button{
+    padding:16px 48px;
+    background-color: #4CC082;
+    color:white;
+    font-size: 20px;
+    
+    border-radius: 60px;
+}
+.courses-button:hover{
+    background-color: #4aaf79;
+}
+
+.radius{
+    border-radius: 5%;
+}
+
+.c-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.c-gap{
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+
+
+}
+.fa-clock{
+    position: absolute;
+    top:4px;
+    left:-20px; 
+}
+
+.courses-d1{
+    color:#00000080;
+}
+.new-c{
+    color:#00000080;
+    font-weight: 600;
+ 
+}
+.c-sub-1{
+    font-size:20px;
+    padding: 8px 0px;
+    color:#31333A;
+    font-weight: 700;
+}
+.c-name-1{
+    margin:0px 8px 0px 0px;
+    font-size: 16px;
+    padding-left: 1%;
+    color:#212529BF;
+}
+.c-sub-1:hover{
+    color:#4CC082;
+    transition: all 0.5s;
+}
+
+
+.fa-star{
+    color:#4cc082
+}
+
+.slider-img{
+    width:50%;
+}
+
+
+.slick-dots li button:before{
+    font-size: 20px !important;
+    padding: 0px 4px;
+    color:green;
+}
+
+.slider-text{
+    font-size: 16px;
+    color:#212529BF
+}
+
+h4{
+    color:#31333A;
+    font-size: 20px;
+    font-weight: 700;
+
 }
