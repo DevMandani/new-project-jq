@@ -346,6 +346,11 @@ input{
      transition: all 0.6s ease-out;
   
 }
+/* }
+.teacher:hover .teach-icon{
+    display: block;
+    border:1px solid red;
+} */
 .courses-button{
     padding:16px 48px;
     background-color: #4CC082;
@@ -432,4 +437,63 @@ h4{
     font-size: 20px;
     font-weight: 700;
 
+}
+
+.v-align{
+    vertical-align: middle;
+}
+
+.fa-user{
+    border:2px solid black;
+    border-radius: 25%;
+}
+.fa-heart{
+    border:2px solid black;
+    border-radius:25%;
+}
+.fa-cart-shopping{
+    border:2px solid black;
+    border-radius: 25%;
+}
+.fa-magnifying-glass{
+    border:2px solid black;
+    border-radius:25%;
+}
+
+.back-img{
+    background-image: url("C:\Users\Dev Mandani\Desktop\new-project-jq\img\back-img.png");
+}
+.teach-icon{
+    position: absolute;
+    z-index: 100;
+    top:0;
+    vertical-align: middle;
+    left:0;
+    display: none;
+    border:1px solid red;
+    padding-top: 10%;
+    
+
+}
+.teach-div{
+   position: relative;
+   
+}
+
+.ri-facebook-circle-fill{
+    font-size: 25px;
+    border:2px solid black;
+}
+
+.ri-instagram-fill{
+    font-size: 25px;
+    border:2px solid black;
+}
+.ri-twitter-fill{
+    border:2px solid black;
+    font-size: 25px;
+}
+.ri-linkedin-box-fill{
+    font-size: 25px;
+    border:2px solid black;
 }
