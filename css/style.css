@@ -3,7 +3,7 @@
 }
 
 .new-bars{
-    width:30px;
+    width:30px; 
     
     margin: auto;
     background-color: white;
@@ -47,7 +47,7 @@ li{
 }
 .dropdown-menu{
     position: absolute;
-    top:150px;
+    top:170px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -61,7 +61,7 @@ li{
 }
 .dropdown-menu1{
     position: absolute;
-    top:150px;
+    top:170px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -76,7 +76,7 @@ li{
 }
 .dropdown-menu2{
     position: absolute;
-    top:150px;
+    top:170px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -90,7 +90,7 @@ li{
 }
 .dropdown-menu3{
     position: absolute;
-    top:150px;
+    top:170px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -106,7 +106,7 @@ li{
 }
 .dropdown-menu4{
     position: absolute;
-    top:150px;
+    top:170px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -453,19 +453,19 @@ h4{
 }
 
 .fa-user{
-    border:2px solid black;
+
     border-radius: 25%;
 }
 .fa-heart{
-    border:2px solid black;
+
     border-radius:25%;
 }
 .fa-cart-shopping{
-    border:2px solid black;
+
     border-radius: 25%;
 }
 .fa-magnifying-glass{
-    border:2px solid black;
+
     border-radius:25%;
 }
 
@@ -478,12 +478,63 @@ h4{
     top:0;
     vertical-align: middle;
     left:0;
-    display: none;
-    border:1px solid red;
-    padding-top: 10%;
+   /* display: none; */
+ 
+
     
 
 }
+.teach-icon p{
+    background-color:#4aaf79;
+    color:white;
+    padding: 0PX 0PX 0PX !important;
+    margin: 0PX !important;
+    border:1px solid white;
+    /* transition: all 0.5s; */
+    transform-origin:left ;
+    transform: rotateY(90deg) ;
+}
+.p1{
+    transition: all 0.4s ;
+    
+}
+.p2{
+    transition: all 0.4s  0.2s;
+    
+}
+.p3{
+    transition: all 0.4s  0.4s;
+    
+}
+.p4{
+    transition: all 0.4s  0.6s;
+    
+}
+
+.teach-div:hover .teach-icon p{
+    transform: rotateY(0deg) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .teach-div{
    position: relative;
    
@@ -491,24 +542,121 @@ h4{
 
 .ri-facebook-circle-fill{
     font-size: 25px;
-    border:2px solid black;
+
 }
 
 .ri-instagram-fill{
     font-size: 25px;
-    border:2px solid black;
+
 }
 .ri-twitter-fill{
-    border:2px solid black;
+
     font-size: 25px;
 }
 .ri-linkedin-box-fill{
     font-size: 25px;
-    border:2px solid black;
+
 }
 
 .space-between{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.fa-pen-to-square{
+    font-size: 40px;
+    transition: all 1s;
+    color:#4CC082
+}
+
+.sec-d-1{
+    font-size: 20px;
+    margin: 0px !important;
+    font-weight: 700;
+}
+
+.sec-d-2{
+    margin:0px !important;
+}
+.fa-camera{
+    font-size: 40px;
+    color:#6c757d;
+}
+.fa-volume-high{
+    font-size: 40px;
+        color:#f8be60;
+}
+.fa-laptop{
+    font-size: 40px;    
+    color: #ec6c5a;
+}
+.fa-handshake-simple{
+    font-size: 40px;
+    color: #ec6c5a;
+}
+.fa-dumbbell{
+    font-size: 40px;
+    color:#f8be60;
+}
+.NEW-COLOR{
+    font-size: 40px;
+    color:#6c757d !important;
+}
+.background-color{
+    background-color: #e2f3f0;
+}
+.background-color:hover{
+    background-color: #4cc082;
+    color:white
+   
+}
+.background-color:hover .fa-pen-to-square{
+    color:white;
+}
+
+.background-color1{
+    background-color: #e0e5eb;
+}
+.background-color1:hover{
+    background-color: #a6aaaf;
+    color:white;
+}
+
+.background-color1:hover .fa-camera{
+    color:white;
+}
+
+.background-color2{
+    background-color: #ffeed3;
+}
+.background-color2:hover{
+    background-color: #f8be60;
+    color:white;
+}
+.background-color2:hover .fa-volume-high{
+    color:white;
+}
+.background-color3{
+  background-color: #ffe9e5;
+}
+.background-color3:hover{
+    background-color:#ec6c5a ;
+    color:white;
+}
+.background-color3:hover .fa-laptop{
+    color:white;
+}
+.background-color3:hover .fa-handshake-simple{
+    color: white;
+}
+.background-color2:hover .fa-dumbbell{
+    color:white;
+}
+
+.background-color1:hover .fa-pen-to-square{
+    color:white;
+}
+
+#background-image{
+    background-image: url("img\back-img.png");
 }
