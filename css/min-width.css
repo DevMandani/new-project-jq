@@ -36,6 +36,9 @@
     .w-sm-5{
         width:20%;
     }
+    .p-l{
+        padding: 10px 20px;
+    }
 }
 
 @media(min-width:768px){
