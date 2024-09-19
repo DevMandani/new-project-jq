@@ -382,6 +382,11 @@ input{
     align-items: center;
     
 }
+.my-0{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
 .c-gap{
     display: flex;
     column-gap: 10px;
@@ -469,8 +474,8 @@ h4{
     border-radius:25%;
 }
 
-.back-img{
-    background-image: url("C:\Users\Dev Mandani\Desktop\new-project-jq\img\back-img.png");
+#back-img{
+    background-image: url("../img/back-img.png");
 }
 .teach-icon{
     position: absolute;
@@ -659,4 +664,42 @@ h4{
 
 #background-image{
     background-image: url("img\back-img.png");
+}
+
+
+
+
+
+.main-slid-d1{
+    font-size: 80px;
+    color:#31333a
+}
+
+.slid-de-2{
+    font-size: 24px;
+    color:#31333a;
+    margin:24px 0px !important; 
+}
+
+
+
+.main-slid-input{
+    width:100%!important;
+    position: relative !important;
+}
+
+
+
+.new-main-btn{
+     
+    position: absolute ;
+left:43%;
+
+    padding: 13px 23px !important;
+}
+.new-main-btn{
+    background-color:#4cc082;
+}
+.new-main-btn:hover{
+    background-color: #46ad76 !important;
 }

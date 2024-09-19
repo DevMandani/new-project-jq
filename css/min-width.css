@@ -126,5 +126,8 @@
     .w-xxl-5{
         width:20%
     }
+    .mt-xxl-n{
+       margin-top: -100px;
+    }
 }
 
