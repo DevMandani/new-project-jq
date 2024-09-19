@@ -1,6 +1,15 @@
 .w-7{
     width: 70%;
 }
+
+.new-bars{
+    width:30px;
+    
+    margin: auto;
+    background-color: white;
+    padding: 0px 0px 0px !important;
+
+}
 .nav-d1{
 
 display: flex;
@@ -10,8 +19,8 @@ column-gap: 15px;
 
 }
 #first{
-    width:40%;
-    height:40%;
+    width:200px;
+ 
 
 }
 .nav-ul{
@@ -496,4 +505,10 @@ h4{
 .ri-linkedin-box-fill{
     font-size: 25px;
     border:2px solid black;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -12,6 +12,14 @@
 } */
 
 
+.d-none{
+    display: none;
+}
+
+.d-bt-flex{
+    display: flex;
+}
+
 @media(min-width:576px){
     .w-sm-1{
         width: 100%;
@@ -63,6 +71,12 @@
     }
     .w-lg-5{
         width:20%;
+    }
+    .d-lg-flex{
+        display: flex;
+    }
+    .d-lg-bt-hide{
+        display: none;
     }
 }
 
