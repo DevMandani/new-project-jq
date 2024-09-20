@@ -491,13 +491,14 @@ h4{
 }
 .teach-icon p{
     background-color:#4aaf79;
-    color:white;
+    /* color:white; */
     padding: 0PX 0PX 0PX !important;
     margin: 0PX !important;
-    border:1px solid white;
+    border:1px solid #4aaf79;
     /* transition: all 0.5s; */
     transform-origin:left ;
     transform: rotateY(90deg) ;
+    color:white;
 }
 .p1{
     transition: all 0.4s ;
@@ -543,23 +544,25 @@ h4{
 .teach-div{
    position: relative;
    
+   
 }
 
 .ri-facebook-circle-fill{
-    font-size: 25px;
+    font-size: 35px;
+   
 
 }
 
 .ri-instagram-fill{
-    font-size: 25px;
+    font-size: 35px;
 
 }
 .ri-twitter-fill{
 
-    font-size: 25px;
+    font-size: 35px;
 }
 .ri-linkedin-box-fill{
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -703,3 +706,42 @@ left:43%;
 .new-main-btn:hover{
     background-color: #46ad76 !important;
 }
+.main-s-box-2{
+    color:#ec6c5a;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.main-s-box1{
+    color:#31333a;
+    font-weight: 900;
+    font-size: 25px;
+}
+.small-box:hover{
+    background-color: #4cc082;
+    color:white
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick-dots li button:before{
+    font-size: 60px !important;
+    color:#4CC082;
+
+}
+
