@@ -47,7 +47,7 @@ li{
 }
 .dropdown-menu{
     position: absolute;
-    top:170px;
+    top:100px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -61,7 +61,7 @@ li{
 }
 .dropdown-menu1{
     position: absolute;
-    top:170px;
+    top:100px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -76,7 +76,7 @@ li{
 }
 .dropdown-menu2{
     position: absolute;
-    top:170px;
+    top:100px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -90,7 +90,7 @@ li{
 }
 .dropdown-menu3{
     position: absolute;
-    top:170px;
+    top:100px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -106,7 +106,7 @@ li{
 }
 .dropdown-menu4{
     position: absolute;
-    top:170px;
+    top:100px;
     line-height: 2;
     width:200px;
     padding-left: 2%;
@@ -273,7 +273,7 @@ li:hover{
 }
 .container-fluid{
     margin:60px auto;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 .sec-new{
@@ -691,24 +691,27 @@ h4{
 
 
 .main-slid-input{
-    width:100%!important;
-    position: relative !important;
+    width:80%!important;
+
 }
 
 
 
 .new-main-btn{
      
-    position: absolute;
-left:0px;
-    padding: 13px 23px !important;
+
 }
 .new-main-btn{
+    transform: translate(-140%);
     background-color:#4cc082;
+   
+
+    padding: 13px 23px !important;
 }
 .new-main-btn:hover{
     background-color: #46ad76 !important;
 }
+
 .main-s-box-2{
     color:#ec6c5a;
     font-size: 30px;
@@ -765,4 +768,20 @@ left:0px;
 
 .background-color-white{
     background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.fa-user{
+    font-size: 20px !important;
+}
+.fa-heart{
+    font-size: 20px !important;
 }
