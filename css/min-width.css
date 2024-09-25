@@ -48,6 +48,10 @@
     .container-fluid{
         padding: 10px 20px;
     }
+    .d-lg-align{
+        display:flex;
+        align-items: start;
+    }   
 }
 
 @media(min-width:768px){
@@ -90,6 +94,7 @@
     .d-lg-bt-hide{
         display: none;
     }
+  
 }
 
 @media(min-width:1200px){
@@ -131,3 +136,54 @@
     }
 }
 
+.btn-close{
+    display: none;
+}
+
+
+@media (max-width:991px)
+ {
+    .sidebar{
+        position: fixed;
+        right:0px;
+        top:0px;
+      background-color: white;
+ width:00px;
+      overflow: hidden;
+      height:100vh;
+      box-shadow: 1px 1px 4px black;;
+      z-index:1000;
+        padding: 0 !important;
+        transition: all 0.5s linear;
+       
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-column a{
+        width:100%;
+        border-bottom:1px solid gainsboro;
+        margin-bottom: 10px;
+        margin-left:10px;
+    }
+    .justify-lg-start{
+        justify-content: start;
+    }
+    .btn-close{
+        display: block;
+    }
+    .new-display{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+
+    .dropdown-menu{
+        background-color: gainsboro;
+        position: relative;
+    }
+    
+}

@@ -3,12 +3,15 @@
 }
 
 .new-bars{
-    width:30px; 
-    
+    width:50px;
+    height:50px; 
     margin: auto;
     background-color: white;
     padding: 0px 0px 0px !important;
 
+}
+.fa-bars{
+    font-size: 20px !important;
 }
 .nav-d1{
 
@@ -691,15 +694,26 @@ h4{
 
 
 .main-slid-input{
+<<<<<<< HEAD
+    width:90%!important;
+    
+=======
     width:80%!important;
 
+>>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 }
 
 
 
 .new-main-btn{
      
+<<<<<<< HEAD
+    
+left:0px;
+    padding: 13px 23px !important;
+=======
 
+>>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 }
 .new-main-btn{
     transform: translate(-140%);
@@ -741,7 +755,13 @@ h4{
     color:white;
 
 }
-
+.btn-close{
+    background-color: white;
+    padding: 10px 20px !important;
+}
+.btn-close:hover{
+    background-color: white;
+}
 
 
 
@@ -761,7 +781,7 @@ h4{
 
 .slick-dots li button:before{
     font-size: 60px !important;
-    color:#4CC082;
+    color:green !important;
   
 
 }
@@ -773,6 +793,27 @@ h4{
 
 
 
+<<<<<<< HEAD
+.v-align1{
+    vertical-align: middle !important;
+}
+
+.slide-d-3{
+    width:100%; 
+    display: flex;
+ 
+}
+.new-main-btn{
+    transform: translate(-150%);
+    padding: 0px 20px !important;
+}
+
+
+
+
+
+=======
+>>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 
 
 
@@ -785,3 +826,12 @@ h4{
 .fa-heart{
     font-size: 20px !important;
 }
+<<<<<<< HEAD
+.fa-cart-shopping{
+    font-size: 20px !important;
+}
+.fa-magnifying-glass{
+    font-size: 20px !important;
+}
+=======
+>>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
