@@ -3,16 +3,21 @@
 }
 
 .new-bars{
-    width:50px;
-    height:50px; 
+    width: 50px;
+    border:1px solid gray;
     margin: auto;
     background-color: white;
-    padding: 0px 0px 0px !important;
+    padding: 10px;
+    border-radius: 10px;
+}
+.new-bars:hover{
+    background-color: gainsboro;
+}
+.new-bars i{
+    font-size:25px;
+   color: gray;
+}
 
-}
-.fa-bars{
-    font-size: 20px !important;
-}
 .nav-d1{
 
 display: flex;
@@ -694,26 +699,15 @@ h4{
 
 
 .main-slid-input{
-<<<<<<< HEAD
-    width:90%!important;
-    
-=======
     width:80%!important;
 
->>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 }
 
 
 
 .new-main-btn{
      
-<<<<<<< HEAD
-    
-left:0px;
-    padding: 13px 23px !important;
-=======
 
->>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 }
 .new-main-btn{
     transform: translate(-140%);
@@ -755,13 +749,7 @@ left:0px;
     color:white;
 
 }
-.btn-close{
-    background-color: white;
-    padding: 10px 20px !important;
-}
-.btn-close:hover{
-    background-color: white;
-}
+
 
 
 
@@ -781,7 +769,7 @@ left:0px;
 
 .slick-dots li button:before{
     font-size: 60px !important;
-    color:green !important;
+    color:#4CC082;
   
 
 }
@@ -793,27 +781,6 @@ left:0px;
 
 
 
-<<<<<<< HEAD
-.v-align1{
-    vertical-align: middle !important;
-}
-
-.slide-d-3{
-    width:100%; 
-    display: flex;
- 
-}
-.new-main-btn{
-    transform: translate(-150%);
-    padding: 0px 20px !important;
-}
-
-
-
-
-
-=======
->>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1
 
 
 
@@ -826,12 +793,3 @@ left:0px;
 .fa-heart{
     font-size: 20px !important;
 }
-<<<<<<< HEAD
-.fa-cart-shopping{
-    font-size: 20px !important;
-}
-.fa-magnifying-glass{
-    font-size: 20px !important;
-}
-=======
->>>>>>> b9d7b842293d37f3cb026295479f1ef296b8eae1

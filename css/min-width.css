@@ -148,7 +148,8 @@
         right:0px;
         top:0px;
       background-color: white;
- width:00px;
+    
+ width:0px;
       overflow: hidden;
       height:100vh;
       box-shadow: 1px 1px 4px black;;
@@ -173,7 +174,14 @@
     }
     .btn-close{
         display: block;
+        border: none;
+        width: 40px;
+        aspect-ratio: 1/1;
+        padding: 10px;
+        font-size: 25px;
+        background-color: white;
     }
+    
     .new-display{
         display: flex;
         justify-content: end;
@@ -185,5 +193,23 @@
         background-color: gainsboro;
         position: relative;
     }
-    
+
+    .drop{
+        box-shadow: none !important;
+        background-color: #80808021 !important;
+        position:  relative !important;
+        top: 0px !important;
+        width: 100% !important;
+    }
+    .logo-close{
+        display: block !important ;
+    }
+}
+
+.logo-close{
+    display: none !important;
+}
+
+.flex-column a{
+    display: flex;
 }
