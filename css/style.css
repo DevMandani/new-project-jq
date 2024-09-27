@@ -446,7 +446,7 @@ input{
 .slick-dots li button:before{
     font-size: 20px !important;
     padding: 0px 4px;
-    color:green;
+    color:green !important;
 }
 
 .slider-text{
@@ -623,7 +623,7 @@ h4{
 }
 .background-color:hover{
     background-color: #4cc082;
-    transition: all 1s;
+    transition: all 0.5s;
     color:white
    
 }
@@ -636,7 +636,7 @@ h4{
 }
 .background-color1:hover{
     background-color: #a6aaaf;
-    transition: all 1s;
+    transition: all 0.5s;
     color:white;
 }
 
@@ -649,7 +649,7 @@ h4{
 }
 .background-color2:hover{
     background-color: #f8be60;
-    transition: all 1s;
+    transition: all 0.5s;
     color:white;
 }
 .background-color2:hover .fa-volume-high{
@@ -660,7 +660,7 @@ h4{
 }
 .background-color3:hover{
     background-color:#ec6c5a ;
-    transition: all 1s;
+    transition: all 0.5s;
     color:white;
 }
 .background-color3:hover .fa-laptop{
@@ -789,7 +789,14 @@ h4{
 
 .fa-user{
     font-size: 20px !important;
+    color:#282828;
 }
 .fa-heart{
     font-size: 20px !important;
+    color:#282828;
+}
+
+.ri-shopping-cart-2-line{
+    font-size: 20px !important;
+    color:#282828;
 }

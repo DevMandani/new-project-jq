@@ -51,7 +51,7 @@
     .d-lg-align{
         display:flex;
         align-items: start;
-    }   
+    }
 }
 
 @media(min-width:768px){
@@ -94,7 +94,7 @@
     .d-lg-bt-hide{
         display: none;
     }
-  
+
 }
 
 @media(min-width:1200px){
@@ -148,7 +148,7 @@
         right:0px;
         top:0px;
       background-color: white;
-    
+
  width:0px;
       overflow: hidden;
       height:100vh;
@@ -156,7 +156,15 @@
       z-index:1000;
         padding: 0 !important;
         transition: all 0.5s linear;
-       
+
+    }
+    .new-max-width-display{
+        display:flex !important;
+        justify-content: end !important;
+        
+        align-items: end 
+        !important;
+
     }
     .flex-column{
         display: flex;
@@ -181,7 +189,7 @@
         font-size: 25px;
         background-color: white;
     }
-    
+
     .new-display{
         display: flex;
         justify-content: end;
